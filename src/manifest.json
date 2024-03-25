@@ -1,0 +1,41 @@
+{
+  "manifestVersion": "0.1",
+  "version": "1.0.0",
+  "id": "wazo-sockets",
+  "packageName": "com.wazo.sockets",
+  "productType": "app",
+  "developer": {
+    "name": "Wazo",
+    "websiteUrl": "https://wazo.io/",
+    "privacyUrl": "https://wazo.io/privacy"
+  },
+  "name": {
+    "short": "Wazo WS",
+    "full": "Wazo WS"
+  },
+  "description": {
+    "short": "Create a WS View",
+    "full": "create a WS View"
+  },
+  "icons": {
+    "outline": "",
+    "color": "black"
+  },
+  "accentColor": "green",
+  "localizationInfo": {
+    "defaultLanguageTag": "en"
+  },
+  "staticTabs": [
+    {
+      "entityId": "ring",
+      "context": [
+        "innerSettingsTab"
+      ],
+      "position": 102,
+      "name": "Websockets",
+      "contentUrl": "./index.html",
+      "icon": "./assets/img/logo.png"
+    }
+  ],
+  "backgroundScript": "./js/background.js"
+}
